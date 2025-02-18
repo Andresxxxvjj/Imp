@@ -372,7 +372,7 @@ header.open .btn_menu span::before{
     width: 100%;
     height: 100%; /* Aumenta un poco la altura */
     object-fit: cover; /* Mantiene el recorte adecuado */
-    transform: scale(1.8); /* Aumenta el tamaño de la imagen sin deformarla */
+    transform: scale(1.9); /* Aumenta el tamaño de la imagen sin deformarla */
     object-position: center; /* Centra la imagen */
   }
 }
