@@ -359,7 +359,7 @@ header.open .btn_menu span::before{
 /* Estilos para pantallas más pequeñas (teléfonos móviles) */
 @media {
   .carousel {
-    width: 100%;
+    width: 130%;
     height: 30em; /* Altura reducida en teléfonos móviles */
   }
 }
