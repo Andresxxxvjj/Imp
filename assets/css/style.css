@@ -349,7 +349,6 @@ header.open .btn_menu span::before{
   width: 100%;
   min-height: 100vh;
 }
-/* Estilos para pantallas grandes (computadoras) */
 .carousel {
   position: relative;
   width: 100%;
@@ -366,12 +365,12 @@ header.open .btn_menu span::before{
 /* Estilos para pantallas más pequeñas (teléfonos móviles) */
 @media (max-width: 768px) {
   .carousel {
-    height: 30em; /* Reducir la altura en pantallas pequeñas */
+    height: 25em; /* Reducir la altura en pantallas pequeñas */
   }
 
   .carousel .slide img {
     width: 100%;
-    height: 120%; /* Aumenta un poco la altura */
+    height: 100%; /* Aumenta un poco la altura */
     object-fit: cover; /* Mantiene el recorte adecuado */
     transform: scale(1.1); /* Aumenta el tamaño de la imagen sin deformarla */
     object-position: center; /* Centra la imagen */
