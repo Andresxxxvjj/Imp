@@ -349,12 +349,20 @@ header.open .btn_menu span::before{
   width: 100%;
   min-height: 100vh;
 }
-.carousel{
+.carousel {
   position: relative;
   width: 100%;
-  height: 60em;
+  height: 60em; /* Altura más alta en pantallas grandes */
   overflow: hidden;
 }
+
+/* Estilos para pantallas más pequeñas (teléfonos móviles) */
+@media (max-width: 768px) {
+  .carousel {
+    height: 30em; /* Altura reducida en teléfonos móviles */
+  }
+}
+
 .slide, .slide img{
   position: absolute;
   width: 100%;
