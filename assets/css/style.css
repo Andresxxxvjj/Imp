@@ -357,7 +357,7 @@ header.open .btn_menu span::before{
 }
 
 /* Estilos para pantallas más pequeñas (teléfonos móviles) */
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
   .carousel {
     height: 30em; /* Altura reducida en teléfonos móviles */
   }
